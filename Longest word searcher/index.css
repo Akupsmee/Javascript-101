@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  background-color: brown;
+  width: 50vw;
+  height: 10vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+input {
+  height: 40%;
+  margin: 2% 6%;
+  min-width: 60%;
+}
+.btn {
+  text-transform: capitalize;
+  height: 40%;
+  padding: 0 4%;
+  border: 2% solid rgba(207, 192, 183, 0.164);
+  border-radius: 10%;
+}
+
+.span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 700px)
+{
+    div{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    input {
+        width: 80%;
+        height: 30%;
+        
+    }
+    .btn{
+        height: 30%;
+    }
+    span{
+        margin-top: 2%;
+    }
+}
