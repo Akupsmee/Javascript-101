@@ -1,1 +1,1 @@
-# Javascript-101 is a collection of my recent tutorial projects carefully arranged as component ideas for a bigger project
+# Javascript-101 is a collection of my recent tutorial projects. It comprises several project ideas that can be used as components
